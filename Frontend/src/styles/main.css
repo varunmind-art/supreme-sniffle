@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  margin: 0;
+  color: #222;
+}
+
+.App {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(33,33,33,0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+
+.trade-table {
+  margin-top: 24px;
+}
+
+.trade-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.trade-table th,
+.trade-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.trade-table th {
+  background: #e3f2fd;
+}
+
+.config-editor {
+  margin: 24px 0;
+  padding: 16px;
+  background: #e8f5e9;
+  border-radius: 8px;
+}
+
+.config-editor label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.config-editor select,
+.config-editor input[type="number"],
+.config-editor input[type="text"] {
+  margin-left: 12px;
+}
+
+.config-editor button {
+  margin-top: 12px;
+  padding: 6px 18px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth {
+  text-align: right;
+  margin-bottom: 12px;
+}
+
+.auth form {
+  display: inline-block;
+}
+
+.auth input[type="text"] {
+  margin-left: 8px;
+  padding: 4px;
+}
+
+.auth button {
+  margin-left: 8px;
+  padding: 4px 14px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
